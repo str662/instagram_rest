@@ -22,6 +22,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     #install app
     'rest_framework',
+    'rest_framework_simplejwt',
     'jazzmin',
 
     'django.contrib.admin',
